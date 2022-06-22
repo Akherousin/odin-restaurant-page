@@ -1,0 +1,93 @@
+<!-- <header class="header">
+        <nav class="navigation">
+          <ul class="navigation-links">
+            <li><a href="#1">Home</a></li>
+            <li><a href="#2">Menu</a></li>
+            <li><a href="#3">Reservations</a></li>
+            <li><a href="#4">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <!-- <section class="hero">
+          <div class="hero-content">
+            <p class="hero-subheading">Discover your taste</p>
+            <h1 class="hero-heading">Eat healthy and Natural Food</h1>
+            <a href="#2" class="btn-cta">Discover Menu</a>
+          </div>
+          <div class="hero-img"></div> -->
+      <!-- </section> -->
+
+      <!-- <section class="menu">
+          <h2 class="menu-heading">Our Food Menu</h2>
+          <ul class="menu-list">
+            <li>
+              <h3 class="menu-categories">Main Course</h3>
+              <ul>
+                <li class="menu-dish">
+                  <p>Super delicious Zuppa Toscana</p>
+                  <p>$40</p>
+                </li>
+                <li class="menu-dish">
+                  <p>Bacon Coli Baked Australian Beef</p>
+                  <p>$40</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3 class="menu-categories">Soups and Salads</h3>
+              <ul>
+                <li class="menu-dish">
+                  <p>Salat Banana Flower</p>
+                  <p>$40</p>
+                </li>
+                <li class="menu-dish">
+                  <p>Gourmet Mushroom Risotto</p>
+                  <p>$40</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3 class="menu-categories">Desserts</h3>
+              <ul>
+                <li class="menu-dish">
+                  <p>Ice Cream Tarte Apple</p>
+                  <p>$40</p>
+                </li>
+                <li class="menu-dish">
+                  <p>Fruit Mile Feuile</p>
+                  <p>$40</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3 class="menu-categories">Drinks</h3>
+              <ul>
+                <li class="menu-dish">
+                  <p>Double Chocolate Mud Pie</p>
+                  <p>$40</p>
+                </li>
+                <li class="menu-dish">
+                  <p>Panmacotte Cream Cake</p>
+                  <p>$40</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section> -->
+
+      <!-- <section class="contacts">
+          <p>📞 123 456 789</p>
+          <p>🏠 Hollywood Boulevard 42, Los Angeles, USA</p>
+          <img src="../src/images/restaurant-location.png" />
+        </section> -->
+      <!-- </main> -->
+      <!-- 
+      <footer class="footer">
+        <ul class="sm-links">
+          <li><a href="#">twitter</a></li>
+          <li><a href="#">facebook</a></li>
+          <li><a href="#">instagram</a></li>
+        </ul>
+      </footer> -->
