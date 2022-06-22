@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 64.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  width: 100vw;
+  height: 100vh;
+  color: rgb(44, 44, 44);
+}
+
+#content {
+  height: 100%;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.navigation-links,
+.sm-links {
+  background-color: #999;
+}
+
+.navigation-links {
+  list-style: none;
+  display: flex;
+
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 1rem;
+}
+
+.navigation-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.sm-links {
+  list-style: none;
+  display: flex;
+
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 0.5rem;
+}
+
+.sm-links a {
+  color: white;
+  text-decoration: none;
+}

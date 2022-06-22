@@ -1,0 +1,36 @@
+.menu-heading {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 3.2rem;
+}
+
+.menu-list {
+  padding: 2rem 4rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 4rem;
+}
+
+.menu-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.menu-list li {
+  width: 30rem;
+}
+
+.menu-categories {
+  color: orange;
+}
+
+.menu-dish {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px black dotted;
+}

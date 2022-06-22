@@ -1,25 +1,14 @@
-<!-- <header class="header">
-        <nav class="navigation">
-          <ul class="navigation-links">
-            <li><a href="#1">Home</a></li>
-            <li><a href="#2">Menu</a></li>
-            <li><a href="#3">Reservations</a></li>
-            <li><a href="#4">Contacts</a></li>
-          </ul>
-        </nav>
-      </header>
+import "../styles/menu.css";
 
-      <main>
-        <!-- <section class="hero">
-          <div class="hero-content">
-            <p class="hero-subheading">Discover your taste</p>
-            <h1 class="hero-heading">Eat healthy and Natural Food</h1>
-            <a href="#2" class="btn-cta">Discover Menu</a>
-          </div>
-          <div class="hero-img"></div> -->
-      <!-- </section> -->
+export function menuLoad() {
+  const parentElement = document.querySelector(".main");
+  parentElement.innerHTML = "";
+  parentElement.insertAdjacentHTML("afterbegin", generateMarkup());
+}
 
-      <!-- <section class="menu">
+function generateMarkup() {
+  return `
+  <section class="menu">
           <h2 class="menu-heading">Our Food Menu</h2>
           <ul class="menu-list">
             <li>
@@ -75,19 +64,6 @@
               </ul>
             </li>
           </ul>
-        </section> -->
-
-      <!-- <section class="contacts">
-          <p>📞 123 456 789</p>
-          <p>🏠 Hollywood Boulevard 42, Los Angeles, USA</p>
-          <img src="../src/images/restaurant-location.png" />
-        </section> -->
-      <!-- </main> -->
-      <!-- 
-      <footer class="footer">
-        <ul class="sm-links">
-          <li><a href="#">twitter</a></li>
-          <li><a href="#">facebook</a></li>
-          <li><a href="#">instagram</a></li>
-        </ul>
-      </footer> -->
+        </section>
+    `;
+}
